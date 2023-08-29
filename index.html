@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pablo Lara Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="../index.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles/index.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="headerWrapper">
-        <div class="navBar">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="">Software</a></li>
-                <li><a href="">Art</a></li>
-            </ul>
-        </div>
+            <h1>Pablo Lara</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="">Software</a></li>
+                    <li><a href="">Art</a></li>
+                </ul>
+            </nav>
     </header>
     <div class="portfolioWrapper">
         <div class="introduction">
-            <img class="profilePic" src="../img/Pablo_Lara_Headshot.JPG">
-            <h1>PABLO LARA</h1>
+            <img class="profilePic" src="images/Pablo_Lara_Headshot.JPG">
+            <p>Hello! I'm Pablo Lara. <br>Computer Science student from City College Of New York! From an early age, I've always been fascinated by computers and their fascinating ability to create software that affect our lives.
+                <br>My mission is to use my skills in Software Development to become a Full Stack Developer and combine it with my passion for art!
+            </p>
         </div>
         <div class="education">
-            <h3>EDUCATION</h3>
+            <h3>-EDUCATION-</h3>
             <h4>City College of New York (CCNY), City University of New York (CUNY)</h4>
             <ul>
                 <li>Manhattan</li>
@@ -44,7 +47,7 @@
             
         </div>
         <div class="skills">
-            <h3>SKILLS</h3>
+            <h3>-SKILLS-</h3>
             <ul>
                 <li><b>Programming</b>: JavaScript, React, C/C++, HTML, CSS, Python.</li>
                 <li><b>Technologies</b>: VisualStudioCode, Git/GitHub, Adobe Photoshop.</li>
@@ -54,26 +57,37 @@
         </div>
         <div class="projects">
             <h3>Projects</h3>
+            <div class="project1">
+                <div class="projectImage1">
+                    <img src="images/hackathon_home.jpeg">
+                </div>
+                <div class="projectDescription">
+                    <h4><a href="https://github.com/MartinLahoumh/shopping_center">CunyTechPrep Hackathon 2023 - Shopping Center</a></h4>
+                    <p>August 21st, 2023 - August 25th, 2023</p>
+                    <ul>
+                        <li>Designed a respensive ecommerce application of fine art selling and purchasing.</li>
+                        <li>Worked in a team of 4 as a front-end developer to format the application's framework using React, JavaScript-XTML, HTML5, and CSS3n</li>
+                        <li>Applied Illustration skills through Photoshop to design the layout of each page and their respective components.</li>
+                    </ul>
+                </div>
+            </div>
 
-            <img class="projectImage" src="../img/hackathon_home.jpeg">
-            <h4><a href="https://github.com/MartinLahoumh/shopping_center">CunyTechPrep Hackathon 2023 - Shopping Center</a></h4>
-            <p>August 21st, 2023 - August 25th, 2023</p>
-            <ul>
-                <li>Designed a respensive ecommerce application of fine art selling and purchasing.</li>
-                <li>Worked in a team of 4 as a front-end developer to format the application's framework using React, JavaScript-XTML, HTML5, and CSS3n</li>
-                <li>Applied Illustration skills through Photoshop to design the layout of each page and their respective components.</li>
-            </ul>
-
-            <img class="projectImage" src="../img/ttt1.png">
-            <h4><a href="https://github.com/PL01/ReactTicTacToeGame">Tic-Tac-Toe Game</a></h4>
-            <p>August 16th, 2023</p>
-            <ul>
-                <li>Debugged the code to enhance and ensure functionality in the control system, including tracking which player wins, and loses.</li>
-                <li>Implemented JavaScript-XTML with HTML, and CSS, to make generalized components for re-usability and flexibility to the game's mechanics.</li>
-            </ul>
+            <div class="project2">
+                <div class="projectImage2">
+                    <img src="images/ttt1.png">
+                </div>
+                <div class="projectDescription2">
+                    <h4><a href="https://github.com/PL01/ReactTicTacToeGame">Tic-Tac-Toe Game</a></h4>
+                    <p>August 16th, 2023</p>
+                    <ul>
+                        <li>Debugged the code to enhance and ensure functionality in the control system, including tracking which player wins, and loses.</li>
+                        <li>Implemented JavaScript-XTML with HTML, and CSS, to make generalized components for re-usability and flexibility to the game's mechanics.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="relExp">
-            <h3>RELEVANT EXPERIENCE</h3>
+            <h3>-RELEVANT EXPERIENCE-</h3>
 
             <h4>CUNY Tech Prep - New York, NY</h4>
             <p>Fellow, Software Development/Data Science, Jun 2023 - Present</p>
@@ -93,27 +107,8 @@
                 committee.</li>
             </ul>
         </div>
-        <div class="supExp">
-            <h3>SUPPORTING EXPERIENCE</h3>
-
-            <h4>Walgreens - Duane Reade, Brooklyn, NY</h4>
-            <p>Sales Associate, Jan 2022 - Present</p>
-            <ul>
-                <li>Operated cash registers and point-of-service credit-card systems to process customer payments.</li>
-                <li>Maintained multiple aisles while keeping track of the store's product inventory.</li>
-            </ul>
-            
-            <h4>Brookhaven National Laboratory, Brooklyn, NY</h4>
-            <p>Field Researcher, Jun 2013 - Aug 2013</p>
-            <ul>
-                <li>Assigned to multiple subway stations with equipment to disperse and track environmentally friendly particles.</li>
-                <li>Data was collected and reported to a lead scientist before being sent off to a facility.</li>
-                <li>Research showed how environmental conditions such as temperature, trains, and people had an effect on how tiny
-                    particles spread out rapidly through the subway system. The NYPD would use this data for counter-terrorism tactics.</li>
-            </ul>
-        </div>
         <div class="recommendations">
-            <h3>Recommendations</h3>
+            <h3>-Recommendations-</h3>
             
             <p>For Tutorials on HTML, CSS, JavaScript, and React, I recommend the following websites: </p>
             <ul>

@@ -70,7 +70,18 @@ ul{
 }
 
 .education h4, p{
-    margin: 8px 0px;
+    margin: 8px 0;
+}
+
+h3{
+    margin: 16px 0;
+}
+
+/* Projects */
+.projectImage{
+    width: 30%;
+    height: 25%;
+    margin-top: 10px; 
 }
 
 /* Footer Content */

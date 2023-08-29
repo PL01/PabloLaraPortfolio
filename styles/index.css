@@ -72,10 +72,25 @@ nav .icon {
 
 /*Introduction Div*/
 
-.profilePic{
-    width: 20%;
-    height: 25%;
+.introduction{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 5px;
+    margin: 40px 40px;
+    padding: 0 40px;
+}
+
+.headshot{
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+.briefDescription{
+    margin: 20px 40px;
+    font-size: large;
 }
 
 ul{
@@ -102,10 +117,21 @@ h3{
     padding: 0 40px;
 }
 
-.projectImage1 img, .project2 img{
-    width: 50%;
+.projectImage1 img{
+    width: 500px;
+    height: 300px
 }
 
+.projectImage2 img{
+    width: 400px;
+    height: 300px
+}
+
+/* Recommendations content*/
+
+.recommendations ul{
+    margin-top: 25px;
+}
 /* Footer Content */
 .fa {
     padding: 20px;
